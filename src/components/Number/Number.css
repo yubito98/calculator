@@ -1,0 +1,26 @@
+.number{
+    display:flex !important;
+    justify-content: center;
+    align-items: center!important;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition:0.4s;
+}
+
+.number:hover{
+    opacity: 0.5;
+}
+
+.number-gray{
+    background-color: gray;
+}
+
+.number-blue{
+    background-color: rgb(255, 191, 0);
+}
